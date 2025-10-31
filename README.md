@@ -39,7 +39,7 @@ However, since each dataset has a different update frequency and data availabili
 
 
  
- ## 🧭 **4. Motivation**
+ ## 💪 **4. Motivation**
 
 My motivation for choosing this topic comes from both **personal experience** and **analytical curiosity**.
 
@@ -68,4 +68,37 @@ After obtaining a clean and usable dataset, the following methods will be applie
 The goal is to determine whether behavioral and attention-based indicators can help **explain or predict Bitcoin’s short-term price direction**.
 
 
+## 📈 **6. Possible Outcomes**
+
+After completing the data cleaning and analysis stages, several outcomes are possible:
+
+- Behavioral indicators such as **tweet sentiment**, **Google search interest**, and **Fear & Greed Index** may show measurable relationships with Bitcoin’s daily price movements.  
+- The strength of these relationships could vary over time, indicating **periodic or event-driven effects** (e.g., sudden market news, regulations).  
+- Machine learning models may identify which behavioral factors have the **strongest predictive power** on short-term price direction.  
+- Alternatively, the analysis might reveal that behavioral indicators have **limited or inconsistent influence**, providing valuable insight into the complexity of crypto markets.
+
+
+## ⚠️ **7. Limitations**
+
+- Behavioral data (especially tweets) may include **noise, spam, or repetitive content** that affects sentiment accuracy.  
+- **Google Trends** data may not perfectly align with Bitcoin trading hours or may use weekly aggregation for certain queries.  
+- The **Fear & Greed Index** is a simplified psychological indicator and might not fully capture complex investor sentiment.  
+- External factors such as macroeconomic events or regulatory news are not directly included in the analysis.  
+
+
+## 🔮 **8. Future Work**
+
+- Expand the dataset to include other **cryptocurrencies (e.g., Ethereum, Dogecoin, BNB)** for comparative analysis.  
+- Incorporate additional behavioral signals such as **Reddit or news sentiment** for richer context.  
+
+---
+
+## ⏱️ Project Timeline
+
+ Date | Task Description |
+|------|------------------|
+| **31 October** | Submit the project proposal via a GitHub URL containing the `README.md`. The file should outline the project idea, datasets to be used, and the data collection plan. |
+| **28 November** | Collect and preprocess the data. Conduct exploratory data analysis (EDA) and perform initial hypothesis tests on the dataset. |
+| **02 January** | Apply machine learning (ML) methods on the dataset to test predictive relationships. |
+| **09 January (until 23:59)** | Final project submission. |
 
