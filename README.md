@@ -11,7 +11,7 @@ To explore this relationship, the project integrates multiple datasets capturing
 The analysis focuses on identifying whether patterns in collective investor sentiment and public engagement correspond to measurable movements in Bitcoin’s market behavior.
 
 
-## 🗂️ **3. Data Overview & Collection**
+## 🗂️ **2. Data Overview & Collection Ways & Formats**
 
 The project uses four main datasets representing different behavioral and market dimensions.  
 Each dataset is publicly available and collected through open-source tools or verified data repositories.
@@ -25,3 +25,12 @@ Each dataset is publicly available and collected through open-source tools or ve
 
 All datasets approximately cover the period between **January 2023 and January 2025**.  
 However, since each dataset has a different update frequency and data availability range, the **exact start and end dates may be adjusted** depending on data consistency and project needs.
+
+## 🎯 **3. Hypotheses**
+
+-**Null Hypothesis (H₀):**  
+ Social media activity, public attention, and investor psychology have **no significant effect** on Bitcoin’s short-term price direction.  
+
+-**Alternative Hypothesis (H₁):**  
+ Social media activity, public attention, and investor psychology have a **significant effect** on Bitcoin’s short-term price direction.
+
