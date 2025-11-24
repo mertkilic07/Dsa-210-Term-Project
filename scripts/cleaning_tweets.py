@@ -13,8 +13,8 @@ sia = SentimentIntensityAnalyzer()
 # ==============================
 # CONFIGURATION
 # ==============================
-INPUT_FILE = "Bitcoin_tweets.csv"
-OUTPUT_FILE = "processed_tweets_final.csv"
+INPUT_FILE = "data/Bitcoin_tweets.csv"
+OUTPUT_FILE = "data/processed_tweets_final.csv"
 CHUNK_SIZE = 50000  # Number of rows processed per chunk
 
 # ==============================

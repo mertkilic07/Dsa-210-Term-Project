@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 # LOAD MERGED DATA
 # ==================================
 
-df = pd.read_csv("merged_data.csv")
+df = pd.read_csv("data/merged_data.csv")
 df["Date"] = pd.to_datetime(df["Date"])
 
 # Next day return for predictive correlation tests

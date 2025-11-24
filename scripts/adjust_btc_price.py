@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 
-INPUT_FILE = "bitcoin_price.csv"
-OUTPUT_FILE = "bitcoin_modified.csv"
+INPUT_FILE = "data/bitcoin_price.csv"
+OUTPUT_FILE = "data/bitcoin_modified.csv"
 
 
 def process_local_price_file():

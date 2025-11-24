@@ -12,29 +12,29 @@ sns.set(font_scale=0.9)
 # All datasets are loaded individually to preserve their original structure.
 # Date columns are converted into datetime objects to enable alignment, filtering, and visualizations.
 
-btc = pd.read_csv("bitcoin_adjusted.csv")
+btc = pd.read_csv("data/bitcoin_adjusted.csv")
 btc["Date"] = pd.to_datetime(btc["Date"])
 
-tweets = pd.read_csv("processed_tweets_final.csv")
+tweets = pd.read_csv("data/processed_tweets_final.csv")
 tweets["Date"] = pd.to_datetime(tweets["Date"])
 
-fng = pd.read_csv("CryptoGreedFear.csv")
+fng = pd.read_csv("data/CryptoGreedFear.csv")
 fng["Date"] = pd.to_datetime(fng["date"])
 
 # ==============================
 # Google Trends – raw monthly data
 # ==============================
 
-btc_web = pd.read_csv("Bitcoin_web_trends.csv", header=None, names=["Date", "btc_web"])
+btc_web = pd.read_csv("data/Bitcoin_web_trends.csv", header=None, names=["Date", "btc_web"])
 btc_web["Date"] = pd.to_datetime(btc_web["Date"])
 
-btc_yt = pd.read_csv("Bitcoin_yt_trends.csv", header=None, names=["Date", "btc_yt"])
+btc_yt = pd.read_csv("data/Bitcoin_yt_trends.csv", header=None, names=["Date", "btc_yt"])
 btc_yt["Date"] = pd.to_datetime(btc_yt["Date"])
 
-crypto_web = pd.read_csv("Crypto_web_trends.csv", header=None, names=["Date", "crypto_web"])
+crypto_web = pd.read_csv("data/Crypto_web_trends.csv", header=None, names=["Date", "crypto_web"])
 crypto_web["Date"] = pd.to_datetime(crypto_web["Date"])
 
-crypto_yt = pd.read_csv("Crypto_yt_trends.csv", header=None, names=["Date", "crypto_yt"])
+crypto_yt = pd.read_csv("data/Crypto_yt_trends.csv", header=None, names=["Date", "crypto_yt"])
 crypto_yt["Date"] = pd.to_datetime(crypto_yt["Date"])
 
 # ==============================
