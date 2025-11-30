@@ -211,6 +211,6 @@ After combining all behavioral and price-based features, the analysis may lead t
 | Date | Task Description |
 |------|------------------|
 | **31 October** | Submit project proposal (`README.md`) with project idea, data sources, and collection plan. |
-| **28 November** | Complete data collection, data cleaning, feature engineering, EDA, and hypothesis testing. |
+| **30 November** | Complete data collection, data cleaning, feature engineering, EDA, and hypothesis testing. |
 | **02 January** | Apply machine learning methods on the engineered dataset to test predictive relationships. |
 | **09 January (23:59)** | Final project submission. |
