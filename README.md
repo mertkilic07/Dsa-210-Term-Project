@@ -253,7 +253,7 @@ Dsa-210/
 ```bash
 # Clone the repository
 git clone https://github.com/mertkilic07/Dsa-210-Term-Project.git
-cd Dsa-210
+cd Dsa-210-Term-Project
 
 # Install dependencies
 pip install -r requirements.txt
