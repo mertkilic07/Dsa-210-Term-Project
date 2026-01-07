@@ -31,7 +31,10 @@ Note: The raw Bitcoin tweets dataset (~2GB+) is too large to include in this rep
 ---
 
 ## 🎯 3. Hypotheses
+### 3.1 Research Question 
+Can publicly available behavioral indicators (social media sentiment, attention metrics, and fear–greed measures) provide predictive power for Bitcoin’s next-day price direction?
 
+### 3.2 Hypothesis
 **Null Hypothesis (H₀):**  
 Behavioral indicators (tweet sentiment, search interest, Fear & Greed Index) have **no significant effect** on Bitcoin's short-term price direction.
 
